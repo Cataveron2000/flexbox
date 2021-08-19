@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+}
+
+.flex-container {
+background-color: aquamarine;
+padding: 10px;
+border: 2px solid black;
+display: flex; 
+flex-wrap: wrap;
+justify-content: center;
+}
+
+.flex-container div{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rojo{
+    background-color: red;
+}
+
+.verde{
+    background-color: green;
+}
+
+.amarillo{
+    background-color: yellow;
+}
+
+.azul{
+background-color: blue;
+}
